@@ -6,14 +6,14 @@
     <link href="./output.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-black-300">
+  <body class="bg-black-300 max-h-screen">
     <div class="flex w-full gap-3">
-      <div id="sidebar" class="bg-white w-[300px] rounded-md border-2">
+      <div id="sidebar" class="bg-white w-[300px] border">
         <div class="p-4 border-b border-gray-200">
           <div class="flex justify-between">
-            <h2 class="text-xl font-semibold">Menu</h2>
+            <img class="w-20" src="/images/dex1.jpg" />
             <svg
-              class="w-6 h-6 text-gray-800 dark:text-black"
+              class="w-6 h-6 text-gray-800 dark:text-black mt-1.5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -36,35 +36,43 @@
             <li>
               <a
                 href="#"
-                class="block px-4 py-2 rounded hover:bg-gray-100 w-full"
-                >Overview</a
+                class="block px-4 py-2 rounded hover:bg-gray-200 w-full"
+                >Dashboard</a
               >
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100"
-                >Courses</a
+              <a
+                href="#"
+                class="block px-4 py-2 rounded hover:bg-gray-200 w-full"
+                >Apps</a
               >
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100"
-                >Students</a
+              <a
+                href="#"
+                class="block px-4 py-2 rounded hover:bg-gray-200 w-full"
+                >To Do List</a
               >
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100"
-                >Analytics</a
+              <a
+                href="#"
+                class="block px-4 py-2 rounded hover:bg-gray-200 w-full"
+                >Calender</a
               >
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100"
-                >Settings</a
+              <a
+                href="#"
+                class="block px-4 py-2 rounded hover:bg-gray-200 w-full"
+                >Contacts</a
               >
             </li>
           </ul>
         </nav>
       </div>
 
-      <div id="mainContent" class="w-full border p-3 mt-2">
+      <div id="mainContent" class="w-full border p-2">
         <div class="flex justify-between items-center">
           <div
             class="flex h-10 rounded-md border-2 border-blue-500 overflow-hidden p-3"
@@ -156,40 +164,38 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-5 gap-3 mt-3 h-[200px]">
-          <div class="col-span-2 p-2 bg-violet-400 rounded-lg">
+        <div class="grid grid-cols-5 gap-3 mt-5 h-[200px]">
+          <div class="col-span-2 p-2 bg-violet-400 rounded-lg border">
             <h3 class="font-bold">Welcome Back!Daxa</h3>
             <p>Learning Management System Dashboard</p>
             <p>Daily Performance</p>
           </div>
-          <div class="bg-gray-100 rounded-lg p-2">
+          <div class="bg-gray-100 rounded-lg p-2 border">
             <h4>Active Courses</h4>
             <p class="font-bold">1.5k+</p>
           </div>
-          <div class="bg-gray-100 rounded-lg p-2">
+          <div class="bg-gray-100 rounded-lg p-2 border">
             <h4>Enrolled Students</h4>
             <p class="font-bold">1.2k+</p>
           </div>
-          <div class="bg-gray-100 rounded-lg p-2">
+          <div class="bg-gray-100 rounded-lg p-2 border">
             <h4>Completion Status</h4>
             <p class="font-bold">75%</p>
           </div>
         </div>
         <div class="grid grid-cols-3 gap-3 mt-3">
-          <div
-            class="col-span-2 bg-gray-100 p-5 w-full rounded-lg dark:border-gray-400"
-          >
+          <div class="col-span-2 bg-gray-100 p-5 rounded-lg border">
             <h4>Active Students</h4>
           </div>
           <div>
             <div
-              class="bg-white border border-gray-200 rounded-lg sm:p-10 dark:bg-gray-100 dark:border-gray-400 w-full"
+              class="bg-white border border-gray-200 rounded-lg sm:p-10 dark:bg-gray-100 dark:border-gray-400"
             >
               <div class="flex justify-between">
                 <p class="flex-start">Courses categorys</p>
                 <p class="flex-end">This week</p>
               </div>
-              <div class="flex flex-col-3 justify-between m-3 items-center">
+              <div class="flex flex-col-3 justify-between items-center">
                 <div class="flex">
                   <svg
                     class="w-6 h-6 text-gray-800 dark:text-black mt-3"
