@@ -8,8 +8,6 @@
       "Courier New", monospace;
     --color-red-400: oklch(0.704 0.191 22.216);
     --color-red-500: oklch(0.637 0.237 25.331);
-    --color-amber-200: oklch(0.924 0.12 95.746);
-    --color-amber-500: oklch(0.769 0.188 70.08);
     --color-blue-200: oklch(0.882 0.059 254.128);
     --color-blue-300: oklch(0.809 0.105 251.813);
     --color-blue-400: oklch(0.707 0.165 254.624);
@@ -563,9 +561,6 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
-  .h-25 {
-    height: calc(var(--spacing) * 25);
-  }
   .h-\[500px\] {
     height: 500px;
   }
@@ -574,9 +569,6 @@
   }
   .h-screen {
     height: 100vh;
-  }
-  .max-h-0 {
-    max-height: calc(var(--spacing) * 0);
   }
   .max-h-none {
     max-height: none;
@@ -602,12 +594,6 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
-  .w-25 {
-    width: calc(var(--spacing) * 25);
-  }
-  .w-35 {
-    width: calc(var(--spacing) * 35);
-  }
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
@@ -626,29 +612,17 @@
   .w-\[650px\] {
     width: 650px;
   }
-  .w-\[900px\] {
-    width: 900px;
-  }
-  .w-\[1000px\] {
-    width: 1000px;
-  }
   .w-\[1050px\] {
     width: 1050px;
   }
   .w-\[1200px\] {
     width: 1200px;
   }
-  .w-\[1500px\] {
-    width: 1500px;
-  }
   .w-full {
     width: 100%;
   }
   .w-screen {
     width: 100vw;
-  }
-  .max-w-fit {
-    max-width: fit-content;
   }
   .max-w-none {
     max-width: none;
@@ -1349,12 +1323,6 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
-  }
-  .bg-amber-500 {
-    background-color: var(--color-amber-500);
-  }
   .bg-blue-200 {
     background-color: var(--color-blue-200);
   }
@@ -1625,6 +1593,18 @@
   }
   .pl-6 {
     padding-left: calc(var(--spacing) * 6);
+  }
+  .pl-25 {
+    padding-left: calc(var(--spacing) * 25);
+  }
+  .pl-50 {
+    padding-left: calc(var(--spacing) * 50);
+  }
+  .pl-70 {
+    padding-left: calc(var(--spacing) * 70);
+  }
+  .pl-80 {
+    padding-left: calc(var(--spacing) * 80);
   }
   .pl-\[100px\] {
     padding-left: 100px;
